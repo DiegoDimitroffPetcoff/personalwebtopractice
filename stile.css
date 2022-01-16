@@ -1,0 +1,193 @@
+
+
+
+/* GENERAL SETTINGS */
+    body{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 200;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 2em;
+    }
+
+    #background_image {
+            
+            background-image: url(./IMG/northligths.kiruna.jpg);
+            background-size: 100% ;
+           /* dejo en los dos siguientes links la posicion del fondo de imagen y si quiero volver al color original */
+            background-position-y: bottom;
+            /* background: linear-gradient(rgb(226, 246, 227) 0%, rgb(255, 255, 255)); */
+            
+            padding: 0%;
+            margin: 0%;}
+    
+
+    h1 {
+        
+        font-size: 0.8 em;
+
+    }
+    h2 {
+        font-size:  0.7em;
+
+    }
+    h3 {
+        font-size:  0.6em;
+
+    }
+    p {
+        font-size:  0.5em;
+       text-decoration: wavy;
+
+    }
+
+/* HEAD SETTINGS */
+        .contenedor{
+        background-color: rgb(66, 84, 100);
+        background: linear-gradient(rgb(63, 65, 42) 0%, rgb(9, 231, 9));
+            
+        }
+       
+
+        .title{
+        background-color:rgb(42, 54, 65) ;
+        color: white;
+        padding: 0% 10% 0%;
+        display:block;
+        margin: 0% 0%;
+        border-style: none;
+        text-align: center;
+        }
+        
+        .subtitle{
+        font-size: .8em;        
+        color:white;
+        text-align: center;   
+        padding: 0% 10% 2%;
+        width: 10px;
+        width: fit-content;
+        font-weight: normal;
+        }
+
+/* NAV - MENU AND LINKS SETTINGS */
+
+        nav{
+            
+            background-color: rgb(66, 84, 100);
+            width: 90%;
+            margin: 0% auto 0%;
+            text-align: center;
+            
+        }
+        ul.horizontal li {
+            
+        color: rgb(181, 223, 183);
+        display: inline-block;
+       
+       
+        }
+
+
+        a{
+        color: white;
+        text-decoration: none;
+        transition: 0.1s;
+        margin: 1em
+        
+   
+       }
+
+       ul.horizontal li a:hover {
+        
+        background: linear-gradient(rgb(66, 84, 100) 0%, rgb(9, 231, 9));
+        font-size: 1.2em;
+        transition: 0.2s;
+        border-color: black;
+        
+       
+    }
+       
+
+
+
+
+      
+
+/*SECTION SETTINGS------------------------------  */
+        section{
+            /* background: linear-gradient(rgb(66, 84, 100) 0%, azure); */
+        color:white;
+        width: 100%;
+        /* background-position: 50%; */
+        /* border-radius: 30%; */
+               
+        }
+
+    #article1{
+    
+    margin: 2%;
+   
+    display: flex;
+    height: 200px;
+    }
+
+        #container_1{
+       
+        
+        flex-direction: column;
+        width: 50%;
+        }
+        #container_2{
+        width: 50%;
+        }
+
+
+    #article2{
+  
+    display: block;
+    border-style: ridge;
+    margin:5%;
+    width: 40%;
+    
+    
+    }
+        #article2 p{
+            /* background-color: red;
+            display:inline; */
+        }
+
+
+
+
+    /* GALLERY IMGEN ------------------------------ */
+#gallery img{
+    width: 20%;
+    box-sizing: border-box;
+    margin:none;
+    }
+section article div#container_2 img {
+    width: 80%;
+    border: center;
+    border-radius: 5%;
+    
+   
+
+    
+}
+section article#article2 img {
+
+    width: 10%;
+    padding-left: 20%;
+}
+
+
+    
+
+/* #article1 img:hover{
+
+    width: 25%;
+    transition: 0.5s;
+    
+} */
+
+/* RESPONSIVE DESIGNE */
