@@ -34,19 +34,26 @@
     h3 {
         font-size:  0.6em;
 
+        text-align: center;
     }
     p {
         font-size:  0.5em;
        text-decoration: wavy;
 
+        padding: 0% 10% 0% 10%;
     }
 
 /* HEAD SETTINGS */
-        .contenedor{
-        background-color: rgb(66, 84, 100);
-        background: linear-gradient(rgb(63, 65, 42) 0%, rgb(9, 231, 9));
-            
-        }
+.contenedor {
+    background-color: rgb(66, 84, 100);
+    background: linear-gradient(rgba(63, 65, 42,0.2) 0%, rgb(9, 231, 9));
+        
+    width: 93%;
+
+    margin: auto%;
+    margin: auto;
+    border-radius: 8px;
+    }
        
 
         .title{
@@ -57,6 +64,7 @@
         margin: 0% 0%;
         border-style: none;
         text-align: center;
+     
         }
         
         .subtitle{
@@ -67,14 +75,15 @@
         width: 10px;
         width: fit-content;
         font-weight: normal;
+      
         }
 
 /* NAV - MENU AND LINKS SETTINGS */
 
-        nav{
-            
+        nav {
+                    
             background-color: rgb(66, 84, 100);
-            width: 90%;
+            width: 100%;
             margin: 0% auto 0%;
             text-align: center;
             
@@ -140,6 +149,11 @@
         #container_2{
         width: 50%;
         }
+        #container_2 > img:nth-child(3) {
+            margin-left: 59px;
+            /*! color: rgba(0,0,43,1); */
+           }
+           
 
 
     #article2{
