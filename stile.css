@@ -20,7 +20,17 @@
             
             padding: 0%;
             margin: 0%;}
-    
+    h1::first-letter{
+        color:rgb(9, 231, 9);
+        text-decoration: solid;
+        
+    }
+
+    h3::first-letter {
+        color:rgb(9, 231, 9);
+        text-shadow: white;
+        font-size: 125%;
+    }
 
     h1 {
         
@@ -50,7 +60,7 @@
         
     width: 93%;
 
-    margin: auto%;
+    margin: auto;
     margin: auto;
     border-radius: 8px;
     }
@@ -165,10 +175,10 @@
     
     
     }
-        #article2 p{
+        /* #article2 p{
             /* background-color: red;
             display:inline; */
-        }
+       
 
 
 
@@ -205,3 +215,104 @@ section article#article2 img {
 } */
 
 /* RESPONSIVE DESIGNE */
+
+@media all and (min-width:1001px) {
+    /* body {
+        margin: 0%;
+        padding: 0%;
+        font-weight: 200;
+        font-family: 'Luxurious Roman', cursive;
+        font-size: 1em;
+        }
+        .contenedor {
+            background-color: rgb(66, 84, 100);
+            background: linear-gradient(rgba(63, 65, 42,0.2) 0%, rgb(200, 5, 5));
+                
+            width: 93%;
+        
+            margin: auto;
+            margin: auto;
+            border-radius: 8px;
+            } */
+    
+         
+}
+@media all and (max-width:1000px) and (min-width:700px) {
+    /* body {
+        margin: 0%;
+        padding: 0%;
+        font-weight: 200;
+        font-family: 'Luxurious Roman', cursive;
+        font-size: 1.5em;
+        } */
+    
+    
+}
+@media all and (max-width:699px) and (min-width:10px)           {
+    
+    
+     body {
+        margin: 0%;
+        padding: 0%;
+        font-weight: 200;
+        font-family: 'Luxurious Roman', cursive;
+        font-size: 1em;
+        }
+
+
+    section {
+    display: flex;
+    flex: ;
+    flex-direction: column;
+    width: 100%;
+    }
+  
+     #article1 {
+    /* margin: 2%; */
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    }
+
+    #article2 {
+  
+        display: block;
+        border-style: ridge;
+        /*! margin:5%; */
+        width: 100%;
+        
+        
+        /*! padding-top: 129px; */
+        /*! padding-top: 41%; */
+        border-top: 18%;
+        margin-top: 104%;
+        /*! margin: 15%; */
+        margin-left: 0%;
+        }
+  
+    #container_1 {
+    /* width: 50%; */
+    width: 100%;
+    font-size: 30px;
+    }
+  
+    #container_2 {
+        /* width: 50%; */
+        width: 100%;
+        font-size: 30px;
+        margin-top: inherit;
+      }
+
+
+  
+
+  #container_2 > img:nth-child(3) {
+    margin-left: 37px;
+    /*! color: rgba(0,0,43,1); */
+   }
+  
+
+
+
+
+}
